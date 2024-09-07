@@ -48,7 +48,7 @@ ul {
 }
 
 body {
-  background-color: #222222;
+  background-color: rgb(46, 46, 46);
   color: #ff7124;
 }
 
@@ -178,4 +178,50 @@ i,
 
 .btn:hover {
 border: 2px solid white;
+}
+.Projects{
+  font-size: 25px;
+  margin: 1rem auto;
+}
+
+.main-body {
+  background-color: rgb(46, 46, 46);
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 20px;
+  padding-right: 30px;
+  gap: 20px;
+}
+.lorem{
+  color: #fff;
+}
+
+.my-projects{
+  grid-row: 1 / 3;
+    display: grid;
+    grid-template-rows: max-content 1fr;
+}
+
+.project1 {
+  background-color: rgb(22, 22, 22);
+    padding: 30px 30px;
+    border-left: 8px solid rgb(211, 45, 153);
+    border-radius: 10px;
+}
+
+.card-btns{
+  display: flex;
+  justify-content: end;
+  margin-top: 2.5em;
+  gap: 20px;
+}
+
+.card{
+  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    gap: 20px;
+}
+
+.sub-heading{
+  margin: 1rem 0;
 }
