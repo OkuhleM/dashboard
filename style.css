@@ -89,8 +89,8 @@ i,
   background-color: rgb(22, 22, 22);
   display: grid;
   grid-template-columns: 2fr 1fr;
-  padding: 5px 10px;
-  /* row-gap: 20px; */
+  padding: 20px 40px;
+  /* row-gap: 40px; */
   color: white;
 }
 
@@ -146,7 +146,36 @@ i,
 
 .avatar2 {
   border-radius: 50%;
-  width: 10%;
-  height: 50%;
-  display: block;
+  border: 2px solid #00B4D8;
+  width: 60px;
+  height: 60px;
+  
+}
+
+.introduction{
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.right{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 40px;
+}
+
+.right button{
+  border: none;
+    border-radius: 20px;
+    padding: 10px 0;
+    background-color: #FF681F;
+    color: rgb(189, 195, 196);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btn:hover {
+border: 2px solid white;
 }
